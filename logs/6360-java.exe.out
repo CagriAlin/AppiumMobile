@@ -1,0 +1,145 @@
+Picked up JAVA_TOOL_OPTIONS: -agentlib:jvmhook
+Picked up _JAVA_OPTIONS: -Xrunjvmhook -Xbootclasspath/a:"C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin\java_shared\classes\jasmine.jar"
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:ERROR Could not find value for key log4j.appender.ERROR
+log4j:ERROR Could not instantiate appender named "ERROR".
+{"logLevel":"debug","message":"gauge-java took 1165milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1165"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 63175"}
+{"logLevel":"info","message":"Listening on port:63175"}
+2022-02-07 12:10:00 INFO  Reflections:228 - Reflections took 4073 ms to scan 92 urls, producing 11054 keys and 58749 values 
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.scrollDown' and 'StepImplementation.scrollDown'"}
+{"logLevel":"debug","message":"Found Sayfayı sayfa boyunca aşağı kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.scrollDownSmall' and 'StepImplementation.scrollDownSmall'"}
+{"logLevel":"debug","message":"Found Sayfayı aşağıya kaydır in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.logger' and 'StepImplementation.logger'"}
+{"logLevel":"debug","message":"Found {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.textAreacontrolById' and 'StepImplementation.textAreacontrolById'"}
+{"logLevel":"debug","message":"Found {} id elementi bul ve {} alanını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.randomSelect' and 'StepImplementation.randomSelect'"}
+{"logLevel":"debug","message":"Found {} xpath elementlerten rastgele bir tane seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendKeysByXpath' and 'StepImplementation.sendKeysByXpath'"}
+{"logLevel":"debug","message":"Found {} xpath elementi bul ve {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickByXpath' and 'StepImplementation.clickByXpath'"}
+{"logLevel":"debug","message":"Found {} xpath elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.waitForseconds' and 'StepImplementation.waitForseconds'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.textAreacontrolByXpath' and 'StepImplementation.textAreacontrolByXpath'"}
+{"logLevel":"debug","message":"Found {} xpath elementi bul ve {} alanını kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.clickByid' and 'StepImplementation.clickByid'"}
+{"logLevel":"debug","message":"Found {} id elemente tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImplementation.sendkeysByid' and 'StepImplementation.sendkeysByid'"}
+{"logLevel":"debug","message":"Found {} id elementi bul ve {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} xpath elemente tıkla : public void clickByXpath(String xpath)"}
+{"logLevel":"debug","message":"\t{} : public void logger(String text)"}
+{"logLevel":"debug","message":"\tSayfayı aşağıya kaydır : public void scrollDownSmall()"}
+{"logLevel":"debug","message":"\t{} xpath elementi bul ve {} değerini yaz : public void sendKeysByXpath(String xpath, String text)"}
+{"logLevel":"debug","message":"\t{} id elemente tıkla : public void clickByid(String id)"}
+{"logLevel":"debug","message":"\t{} id elementi bul ve {} değerini yaz : public void sendkeysByid(String id, String text)"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekle : public void waitForseconds(int time) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} xpath elementlerten rastgele bir tane seç : public void randomSelect(String xpath)"}
+{"logLevel":"debug","message":"\t{} xpath elementi bul ve {} alanını kontrol et : public void textAreacontrolByXpath(String xpath, String text)"}
+{"logLevel":"debug","message":"\t{} id elementi bul ve {} alanını kontrol et : public void textAreacontrolById(String id, String text)"}
+{"logLevel":"debug","message":"\tSayfayı sayfa boyunca aşağı kaydır : public void scrollDown()"}
+2022-02-07 12:10:03 INFO  Reflections:228 - Reflections took 3005 ms to scan 92 urls, producing 10964 keys and 49771 values 
+2022-02-07 12:10:03 INFO  Loggers:24 - ANDROID TESTI BASLIYOR
+Feb 07, 2022 12:10:27 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:10:27 INFO  Loggers:22 - ÖZDİLEKTEYİM UYGULAMSI TESTİ BAŞLADI
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} id elementi bul ve {} alanını kontrol et' using 'class StepImplementation.textAreacontrolById"}
+2022-02-07 12:10:35 ERROR Loggers:95 - Hata= org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0SV2QON', ip: '172.29.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, databaseEnabled: false, desired: {appActivity: com.ozdilek.ozdilekteyim.Ma..., appPackage: com.ozdilek.ozdilekteyim, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x1920, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 1731, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6b7558d3-e961-4799-9c3d-13e134f64663
+*** Element info: {Using=id, value=com.ozdilek.ozdilekteyim:id/textView}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:10:35 INFO  Loggers:22 - Anasayfada başlığı kontrol edildi
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} id elemente tıkla' using 'class StepImplementation.clickByid"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:10:39 INFO  Loggers:22 - Alışverişe başla butonuna basıldı
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} id elementi bul ve {} alanını kontrol et' using 'class StepImplementation.textAreacontrolById"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:10:42 INFO  Loggers:22 - Alışveriş sayfasının açıldığı kontrol edildi
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} id elemente tıkla' using 'class StepImplementation.clickByid"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:10:45 INFO  Loggers:22 - Kategoriler sayfası açıldı
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} xpath elementi bul ve {} alanını kontrol et' using 'class StepImplementation.textAreacontrolByXpath"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:10:49 INFO  Loggers:22 - Kategoriler sayfasının açıldığı kontrol edildi
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} xpath elemente tıkla' using 'class StepImplementation.clickByXpath"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:10:52 INFO  Loggers:22 - Kadın seçeneğine tıklandı
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing 'Sayfayı aşağıya kaydır' using 'class StepImplementation.scrollDownSmall"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} xpath elemente tıkla' using 'class StepImplementation.clickByXpath"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:11:00 INFO  Loggers:22 - Pantalon kategorisi seçildi
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing 'Sayfayı sayfa boyunca aşağı kaydır' using 'class StepImplementation.scrollDown"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing 'Sayfayı sayfa boyunca aşağı kaydır' using 'class StepImplementation.scrollDown"}
+{"logLevel":"debug","message":"Executing '{} xpath elementlerten rastgele bir tane seç' using 'class StepImplementation.randomSelect"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:11:09 INFO  Loggers:22 - Rastegele pantalon seçimi yapıldı
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} xpath elementi bul ve {} alanını kontrol et' using 'class StepImplementation.textAreacontrolByXpath"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} id elemente tıkla' using 'class StepImplementation.clickByid"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:11:20 INFO  Loggers:22 - Ürün detay sayfası açılır ve favorilere eklendi
+{"logLevel":"debug","message":"Executing '{} id elementi bul ve {} alanını kontrol et' using 'class StepImplementation.textAreacontrolById"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} id elementi bul ve {} değerini yaz' using 'class StepImplementation.sendkeysByid"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} id elementi bul ve {} alanını kontrol et' using 'class StepImplementation.textAreacontrolById"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} id elementi bul ve {} değerini yaz' using 'class StepImplementation.sendkeysByid"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:11:30 INFO  Loggers:22 - E-posta ve parola bilgileri dolduruldu
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} id elemente tıkla' using 'class StepImplementation.clickByid"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:11:32 INFO  Loggers:22 - Geri dön butonuna basıldı
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} id elemente tıkla' using 'class StepImplementation.clickByid"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:11:35 INFO  Loggers:22 - Geri dön butonuna basıldı
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing 'Sayfayı sayfa boyunca aşağı kaydır' using 'class StepImplementation.scrollDown"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing 'Sayfayı sayfa boyunca aşağı kaydır' using 'class StepImplementation.scrollDown"}
+{"logLevel":"debug","message":"Executing '{} xpath elementlerten rastgele bir tane seç' using 'class StepImplementation.randomSelect"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:11:44 INFO  Loggers:22 - Rastegele pantalon seçimi yapıldı
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} xpath elementlerten rastgele bir tane seç' using 'class StepImplementation.randomSelect"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:11:48 INFO  Loggers:22 - Beden seçimi yapıldı
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{} id elemente tıkla' using 'class StepImplementation.clickByid"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:11:51 INFO  Loggers:22 - Ürün sepete eklendi
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekle' using 'class StepImplementation.waitForseconds"}
+{"logLevel":"debug","message":"Executing '{}' using 'class StepImplementation.logger"}
+2022-02-07 12:11:54 INFO  Loggers:22 - ÖZDİLEKTEYİM UYGULAMSI TESTİ SONLANDI
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

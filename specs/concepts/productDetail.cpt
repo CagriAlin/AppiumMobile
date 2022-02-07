@@ -1,0 +1,10 @@
+Created by testinium on 2/2/2022
+
+This is a concept file with following syntax for each concept.
+# Ürün detay sayfası açılır ve favorilere eklenir
+* "3" saniye kadar bekle
+* "//android.widget.TextView[@text='SEPETE EKLE']" xpath elementi bul ve "SEPETE EKLE" alanını kontrol et
+* "3" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/imgFav" id elemente tıkla
+* "3" saniye kadar bekle
+* "Ürün detay sayfası açılır ve favorilere eklendi"

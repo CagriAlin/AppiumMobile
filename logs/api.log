@@ -1,0 +1,7 @@
+07-02-2022 12:07:59.174 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+07-02-2022 12:07:59.211 [Gauge] [INFO] Initializing specs cache with 1 specs
+07-02-2022 12:07:59.211 [Gauge] [DEBUG] Adding specs from C:\Users\testinium\IntelliJIDEAProjects\AppiumMobile\specs\example.spec
+07-02-2022 12:07:59.211 [Gauge] [INFO] Initializing steps cache with 1 steps
+07-02-2022 12:07:59.211 [Gauge] [INFO] Gauge daemon initialized and listening on port: 62999
+07-02-2022 12:07:59.214 [Gauge] [DEBUG] Watching directory: C:\Users\testinium\IntelliJIDEAProjects\AppiumMobile\specs
+07-02-2022 12:07:59.214 [Gauge] [DEBUG] Found 1 files

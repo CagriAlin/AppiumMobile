@@ -1,0 +1,19 @@
+Created by testinium on 1/31/2022
+
+This is a concept file with following syntax for each concept.
+# Anasayfada başlığı kontrol edilir
+* "8" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/textView" id elementi bul ve "Mağazadan Alışveriş" alanını kontrol et
+* "Anasayfada başlığı kontrol edildi"
+
+# Alışverişe başla butonuna basılır
+* "3" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" id elemente tıkla
+* "Alışverişe başla butonuna basıldı"
+
+# Alışveriş sayfasının açıldığı kontrol edilir
+* "3" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/tvMarketName" id elementi bul ve "Market" alanını kontrol et
+* "Alışveriş sayfasının açıldığı kontrol edildi"
+
+

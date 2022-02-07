@@ -1,0 +1,24 @@
+Created by testinium on 2/1/2022
+
+This is a concept file with following syntax for each concept.
+# Kategoriler sayfası açılır
+* "3" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/nav_categories" id elemente tıkla
+* "Kategoriler sayfası açıldı"
+
+# Kategoriler sayfasının açıldığı kontrol edilir
+* "3" saniye kadar bekle
+* "//android.widget.TextView[@text='Kadın']" xpath elementi bul ve "Kadın" alanını kontrol et
+* "Kategoriler sayfasının açıldığı kontrol edildi"
+
+# Kadın seçeneğine tıklanır
+* "3" saniye kadar bekle
+* "//android.widget.TextView[@text='Kadın']" xpath elemente tıkla
+* "Kadın seçeneğine tıklandı"
+
+# Pantalon kategorisi seçilir
+* "3" saniye kadar bekle
+* Sayfayı aşağıya kaydır
+* "3" saniye kadar bekle
+* "//android.widget.TextView[@text='Pantolon']" xpath elemente tıkla
+* "Pantalon kategorisi seçildi"

@@ -1,0 +1,12 @@
+Created by testinium on 2/2/2022
+
+This is a concept file with following syntax for each concept.
+# Giriş yap alanlarının doldurulması
+* "com.ozdilek.ozdilekteyim:id/etEposta" id elementi bul ve "E - posta Adresi" alanını kontrol et
+* "3" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etEposta" id elementi bul ve "omercagri.alin@testinium.com" değerini yaz
+* "3" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etPassword" id elementi bul ve "Parola" alanını kontrol et
+* "3" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etPassword" id elementi bul ve "12345678" değerini yaz
+* "E-posta ve parola bilgileri dolduruldu"

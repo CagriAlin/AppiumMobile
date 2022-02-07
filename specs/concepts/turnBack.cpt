@@ -1,0 +1,7 @@
+Created by testinium on 2/2/2022
+
+This is a concept file with following syntax for each concept.
+# Geri dönme butonuna basılır
+* "2" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/ivBack" id elemente tıkla
+* "Geri dön butonuna basıldı"
